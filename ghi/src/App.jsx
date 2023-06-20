@@ -8,14 +8,14 @@ import Education from "./components/Education";
 
 function App() {
     return (
-        <>
+        <div className="bg-gradient-to-br from gray-200 to-gray-100">
             <Sidenav />
             <Main />
             <Work />
             <Education />
             <Projects />
             <Contact />
-        </>
+        </div>
     );
 }
 

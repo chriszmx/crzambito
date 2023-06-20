@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { AiOutlineHome, AiOutlineMenu, AiOutlineProject, AiOutlineMail } from 'react-icons/ai';
 import { BsPerson } from 'react-icons/bs'
 import { GrProjects } from 'react-icons/gr'
+import { IoSchoolOutline } from "react-icons/io5"
 
 const Sidenav = () => {
 
@@ -25,6 +26,11 @@ const Sidenav = () => {
 						<a  onClick={handleNav} href="#work" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
 							<GrProjects size={20} />
 							<span className='pl-4'>Work</span>
+						</a>
+
+						<a  onClick={handleNav} href="#Education" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+							<IoSchoolOutline size={20} />
+							<span className='pl-4'>Education</span>
 						</a>
 
 						<a  onClick={handleNav} href="#main" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
@@ -55,6 +61,10 @@ const Sidenav = () => {
 							<GrProjects />
 						</a>
 
+						<a href="#education" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+							<IoSchoolOutline />
+						</a>
+
 						<a href="#projects" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
 							<AiOutlineProject />
 						</a>
@@ -68,11 +78,6 @@ const Sidenav = () => {
 						</a>
 					</div>
 				</div>
-
-
-
-
-
 		</div>
     );
 };
