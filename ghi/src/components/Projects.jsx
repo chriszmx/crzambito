@@ -1,6 +1,5 @@
 import React from 'react'
 import ProjectItem from "./ProjectItem"
-import propertyImg from '../assets/butter.jpg'
 import ithink from '../assets/ithink.png'
 import car from '../assets/carcar.png'
 import fjz from '../assets/fjz.png'
