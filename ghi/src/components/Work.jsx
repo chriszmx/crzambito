@@ -3,7 +3,7 @@ import WorkItem from './WorkItem'
 
 const data = [
     {
-        year: 2023,
+        year: "2023-Current",
         title: 'Apex Cloud Development [Internship]',
         details: 'As an Associate Software Engineer at Apex Cloud Development since May 2023, I have been actively involved in developing a transformative technology aimed at enhancing operations and service within the Bar and Restaurant Industry. Our cutting-edge platform revolutionizes how businesses communicate with employees, manage systems and operations, and provide real-time information to customers. Throughout this internship, I have gained hands-on experience working remotely with a diverse technology stack, including React, Vue, Django, Java for Android, Swift for iOS, and PostgresSQL. This experience is fostering my growth as a versatile software engineer capable of delivering solutions across different platforms. '
     },
