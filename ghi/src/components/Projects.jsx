@@ -4,6 +4,7 @@ import propertyImg from '../assets/butter.jpg'
 import ithink from '../assets/ithink.png'
 import car from '../assets/carcar.png'
 import fjz from '../assets/fjz.png'
+import studio from '../assets/studio16.png'
 
 const projectList = [
     {
@@ -28,13 +29,13 @@ const projectList = [
         url: 'https://gitlab.com/c.r.zambito/fjz'
     },
     {
-        img: propertyImg,
+        img: studio,
         title: 'Studio 16 Task Manager',
-        tools: ['Vue.js', 'Firebase'],
-        description: 'This is a sample description for App4 project',
+        tools: ['Django', 'CSS', 'Python', 'PostgreSQLite'],
+        description: 'Studio 16 Group Task Manager',
         url: 'https://gitlab.com/team-163974311/studio-16-task-manager'
     },
-    
+
 ]
 
 const Projects = () => {

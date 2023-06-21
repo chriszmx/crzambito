@@ -17,4 +17,6 @@ mail integration
 
 using fastapi for backend
 uvicorn app:app --reload
-to load dev for fast api w/o docker 
+to load dev for fast api w/o docker
+
+
