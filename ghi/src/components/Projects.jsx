@@ -35,6 +35,7 @@ const projectList = [
         url: 'https://gitlab.com/team-163974311/studio-16-task-manager'
     },
 
+
 ]
 
 const Projects = () => {
@@ -46,7 +47,7 @@ const Projects = () => {
             </p>
             <div className='grid sm:grid-cols-2 gap 12'>
                 {projectList.map(project => (
-                    <ProjectItem {...project} />
+                    <ProjectItem key={project.title} {...project} />
                 ))}
             </div>
         </div>

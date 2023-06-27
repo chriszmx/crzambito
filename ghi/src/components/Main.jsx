@@ -52,7 +52,7 @@ const Main = () => {
                 </div>
                 <div className="flex justify-around mt-4">
                     <button className="py-2 px-4 bg-blue-600 text-white rounded-lg focus:outline-none focus:shadow-outline">
-                        <a href="mailto:c.r.zambito@gmail.com" className="text-white">
+                        <a href="#contact" className="text-white">
                             <AiOutlineMail />
                             <span>Contact Me</span>
                         </a>
