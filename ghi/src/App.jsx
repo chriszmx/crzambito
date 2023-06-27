@@ -5,12 +5,14 @@ import Work from "./components/Work";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Education from "./components/Education";
+import AboutMe from "./components/AboutMe";
 
 function App() {
     return (
-        <div className="bg-gradient-to-br from gray-200 to-gray-100">
+        <div>
             <Sidenav />
             <Main />
+            <AboutMe />
             <Work />
             <Education />
             <Projects />
