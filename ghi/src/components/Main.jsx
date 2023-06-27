@@ -8,7 +8,7 @@ const Main = () => {
         <div id="main" className="flex items-center justify-center bg-fixed bg-cover h-screen"
             style={{
                 backgroundImage: "url('https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80')",
-                backgroundSize: window.innerWidth <= 768 ? 'contain' : 'cover',
+                backgroundSize: window.innerWidth <= 768 ? 'cover' : 'cover',
             }}>
             <div className="p-10 bg-white/70 rounded-lg shadow-2xl w-5/6 md:w-1/2 lg:w-1/3">
                 <h1 className="sm:text-5xl text-4xl font-bold text-gray-800 mb-4">Hi, I'm Chris Zambito</h1>
